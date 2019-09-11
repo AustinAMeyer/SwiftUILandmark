@@ -15,6 +15,7 @@
 		260B0A92232886E20039536D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 260B0A90232886E20039536D /* LaunchScreen.storyboard */; };
 		260B0A9D232886E30039536D /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B0A9C232886E30039536D /* LandmarksTests.swift */; };
 		260B0AA8232886E30039536D /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B0AA7232886E30039536D /* LandmarksUITests.swift */; };
+		266A38B8232890510095E0AD /* circleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266A38B7232890510095E0AD /* circleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		260B0AA3232886E30039536D /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		260B0AA7232886E30039536D /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
 		260B0AA9232886E30039536D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266A38B7232890510095E0AD /* circleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		260B0A84232886E00039536D /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				266A38B7232890510095E0AD /* circleImage.swift */,
 				260B0A85232886E00039536D /* AppDelegate.swift */,
 				260B0A87232886E00039536D /* SceneDelegate.swift */,
 				260B0A89232886E00039536D /* ContentView.swift */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				260B0A86232886E00039536D /* AppDelegate.swift in Sources */,
+				266A38B8232890510095E0AD /* circleImage.swift in Sources */,
 				260B0A88232886E00039536D /* SceneDelegate.swift in Sources */,
 				260B0A8A232886E00039536D /* ContentView.swift in Sources */,
 			);
